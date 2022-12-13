@@ -56,11 +56,11 @@ public class Day13 {
     boolean parsePair(Scanner sc) {
         List<Item> left = parseLine(sc);
         List<Item> right = parseLine(sc);
-        Boolean b = compareLines(left, right);
         if (sc.hasNextLine()) {
             sc.next("\\n");
         }
-        return b;
+
+        return compareLines(left, right);
     }
 
     Boolean compareLines(List<Item> left, List<Item> right) {
@@ -72,12 +72,6 @@ public class Day13 {
             }
             Item leftItem = left.get(i);
             Item rightItem = right.get(i);
-            if (leftItem.integer != null && leftItem.list != null) {
-                throw new RuntimeException();
-            }
-            if (rightItem.integer != null && rightItem.list != null) {
-                throw new RuntimeException();
-            }
             if (leftItem.integer != null && rightItem.integer != null) {
                 if (leftItem.integer < rightItem.integer) {
                     return true;

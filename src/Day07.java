@@ -3,10 +3,10 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Scanner;
 
-public class Day7 {
+public class Day07 {
 
     public static void main(String[] args) {
-        new Day7().doChallenge();
+        new Day07().doChallenge();
     }
 
     private void doChallenge() {

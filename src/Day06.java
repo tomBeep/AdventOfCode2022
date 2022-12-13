@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Day6 {
+public class Day06 {
 
     public static void main(String[] args) {
         doChallenge();

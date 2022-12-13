@@ -1,7 +1,7 @@
-public class Day8 {
+public class Day08 {
 
     public static void main(String[] args) {
-        new Day8().doChallenge();
+        new Day08().doChallenge();
     }
 
     private void doChallenge() {

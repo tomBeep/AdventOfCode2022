@@ -3,7 +3,7 @@ import java.util.List;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Day5 {
+public class Day05 {
 
     public static void main(String[] args) {
         doChallenge();

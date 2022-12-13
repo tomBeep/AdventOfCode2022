@@ -1,9 +1,9 @@
 import java.util.HashSet;
 
-public class Day9 {
+public class Day09 {
 
     public static void main(String[] args) {
-        new Day9().doChallenge();
+        new Day09().doChallenge();
     }
 
     private void doChallenge() {
